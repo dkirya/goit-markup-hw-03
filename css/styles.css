@@ -305,6 +305,7 @@ img{
     margin-bottom: 16px;
 }
 .logo-footer-white{
+    display: inline-block;
     color: #f4f4fd;
 }
 .text-footer{

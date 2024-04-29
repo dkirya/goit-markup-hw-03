@@ -131,9 +131,9 @@ img{
     color: #ffffff;
 }
 .section-hero-button{
+    display:block;
     background-color: #4d5ae5;
     border: none;
-    display:block;
     border-radius: 4px;
     height: 56px;
     min-width: 169px;

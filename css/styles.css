@@ -72,12 +72,12 @@ img{
 .menu{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 .menu-item{
-    gap:40px;
+
 }
 .menu-link{
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -94,7 +94,7 @@ img{
 }
 .address{
     display:flex;
-    column-gap: 40px;
+    gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
 
@@ -268,13 +268,14 @@ img{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
+
 }
 .text-portfolio-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: #2e2f42; 
 }
 .text-portfolio{
@@ -290,9 +291,7 @@ img{
 }
 .footer-container{
     display:flex;
-    column-gap:20px;
-    flex-wrap:wrap;
-
+    flex-direction:column;
 }
 .footer-logo{
     display: inline-block;
@@ -309,6 +308,8 @@ img{
     color: #f4f4fd;
 }
 .text-footer{
+    display: block;
+    max-width:264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;

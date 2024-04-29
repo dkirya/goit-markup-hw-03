@@ -290,7 +290,6 @@ img{
     padding: 100px 0;
 }
 .footer-container{
-    display:flex;
     flex-direction:column;
 }
 .footer-logo{
@@ -309,7 +308,6 @@ img{
     color: #f4f4fd;
 }
 .text-footer{
-    display: block;
     max-width:264px;
     font-size: 16px;
     line-height: 1.5;
